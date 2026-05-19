@@ -1,2 +1,2 @@
-# computer-architecture-lab
-My Computer Architecture Lab Work (10 Labs)
+# computer-architecture-lab 240324
+My Computer Architecture Lab Work
