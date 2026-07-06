@@ -15,7 +15,7 @@ A **4-to-1 MUX**:
 - Inputs: D0, D1, D2, D3  
 - Select lines: S1, S0  
 - Output: Y  
-
+.
 | S1 | S0 | Output (Y) |
 |----|----|-----------|
 | 0  | 0  | D0        |
