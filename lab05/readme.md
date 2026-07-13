@@ -1,8 +1,7 @@
 # Digital Logic Design: 2-Bit Magnitude Comparator (VHDL Simulation)
 
 ## Objective
-- To design and simulate a **2-bit magnitude comparator**  
-- To understand how comparison operations are implemented in hardware  
+- To design and simulate a **2-bit magnitude comparator** - To understand how comparison operations are implemented in hardware  
 
 ---
 
@@ -20,14 +19,11 @@ For a **2-bit comparator**:
 
 ### Logical Expressions
 
-- **EQ (Equal):**  
-  HIGH when both bits of A and B are equal  
+- **EQ (Equal):** HIGH when both bits of A and B are equal  
 
-- **GT (Greater Than):**  
-  HIGH when A is greater than B  
+- **GT (Greater Than):** HIGH when A is greater than B  
 
-- **LT (Less Than):**  
-  HIGH when A is less than B  
+- **LT (Less Than):** HIGH when A is less than B  
 
 These conditions are evaluated by comparing the most significant bits first (A1 and B1), followed by the least significant bits (A0 and B0) when necessary.
 
@@ -51,6 +47,15 @@ Simulation helps verify that logical conditions are correctly implemented and th
 ---
 
 ## Output
+
+### Simulation Waveforms
+Below is the verification waveform showcasing the full testbench execution across all 16 possible input combinations ($4 \times 4$ matrix).
+
+![2-Bit Comparator Waveform](output.png)
+
+The detailed timing logic tracking the relationship between the inputs and individual mutually exclusive outputs is shown below:
+
+![Detailed Comparator Logic Waveform](output_logic.png)
 
 ### Comparator Results
 - Produces correct comparison outputs for all input combinations  
